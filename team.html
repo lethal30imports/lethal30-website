@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meet the Team | Lethal 30 Imports</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <style>
+   body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 250px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #FF0000;
+    margin-top: 20px;
+    font-size: 48px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #bbb;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+hr.divider {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #FF0000, transparent);
+    margin: 30px auto;
+    width: 60%;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+
+.team-member {
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 12px;
+    width: 300px;
+    padding: 25px 20px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.team-member:hover {
+    transform: translateY(-6px);
+    box-shadow: 
+        0 0 25px rgba(255, 0, 0, 0.5),
+        0 0 60px rgba(255, 0, 0, 0.15);
+}
+
+.team-member img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #FF0000;
+}
+.team-member .hover-quote {
+    display: none;
+    position: absolute;
+    background: #222;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #FF0000;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 10;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.3);
+}
+
+.team-member:hover .hover-quote {
+    display: block;
+}
+
+.name {
+    color: #FF0000;
+    font-size: 22px;
+    margin: 10px 0 3px;
+    font-weight: bold;
+}
+
+.role {
+    color: #00FF00;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.email {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.email a {
+    color: #00bfff;
+    font-size: 14px;
+}
+
+.bio {
+    font-size: 15px;
+    color: #ccc;
+    line-height: 1.6;
+    max-height: 80px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.3s ease;
+}
+
+.bio.open {
+    max-height: 1000px;
+}
+
+.read-more {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #00bfff;
+    cursor: pointer;
+}
+
+a {
+    color: #00bfff;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+    <img src="logo.png" alt="Lethal 30 Logo" class="logo">
+<h1>Meet the Team</h1>
+<p class="subtext">The people behind the imports.</p>
+<p style="font-style: italic; color: #bbb; font-size: 16px; margin-top: -10px; margin-bottom: 20px;">
+    “Real people. Real hustle. One import at a time.” – The Lethal 30 Team
+</p>
+
+<hr class="divider">
+
+<div class="team-container">
+
+    <div class="team-member">
+      <div style="position: relative;">
+  <img src="thomas.jpg" alt="Thomas Muller">
+  <div class="hover-quote">Two turbos are always better than one.</div>
+</div>
+        <div class="name">Thomas Muller</div>
+        <div class="role">Founder & Owner</div>
+        <div class="email"><a href="mailto:info@lethal30imports.com">info@lethal30imports.com</a></div>
+        <div class="bio">
+           Thomas has been wrenching since most people were still figuring out how to change a tire. At 16, he landed an internship as a rally crew chief and spent his teenage years traveling the U.S. with a V8-powered Rally Ranger team. Since then, he's stacked over 14 years of hands-on automotive experience — from ground-level garage work to high-stakes military aviation.
+
+At 24, Thomas joined the Army and became a Black Hawk helicopter mechanic. He later deployed to Afghanistan in support of Operation Freedom’s Sentinel, earning a combat device for his service. That time built in him an unmatched attention to detail, discipline, and grit — traits that now drive everything behind Lethal 30.
+
+He founded Lethal 30 after seeing a major gap in the U.S. import world: too many shady brokers, too little transparency. His mission? Deliver ligament imports with total honesty — and actually be there, on the ground in person, hand-picking every vehicle. No auctions-only. No surprises. No BS.
+
+Thomas is obsessed with JDM classics and dreams of one day building out a black RX-7 FD. Until then, he’s chasing down the rarest imports — and making sure his customers never have to settle for anything less than exactly what they want.
+
+        </div>
+        <div class="read-more" onclick="this.previousElementSibling.classList.toggle('open'); this.innerText = this.previousElementSibling.classList.contains('open') ? 'Read Less' : 'Read More';">Read More</div>
+    </div>
+
+    <div class="team-member">
+       <div style="position: relative;">
+  <img src="emma.jpg" alt="Emma Muller">
+  <div class="hover-quote">Poke, paperwork, and perfectly tuned imports.</div>
+</div>
+        <div class="name">Emma Muller</div>
+        <div class="role">Owner</div>
+        <div class="email"><a href="mailto:emma@lethal30imports.com">emma@lethal30imports.com</a></div>
+        <div class="bio">
+           Tech Sergeant. Cyber backbone. Paperwork assassin.
+
+Emma Muller is still serving in the U.S. Air Force, going on 9 years strong. With a background in cyber operations and a current post supporting high-level missions, she brings the same laser focus and discipline to Lethal 30. From legal forms and backend logistics to customer messaging and mission-critical paperwork, Emma keeps the business tight and on point.
+
+Quiet but lethal, she’s the one making sure no detail gets missed. Off-duty, she’s about beach days, fresh poke, and clean BMW builds.
+        </div>
+        <div class="read-more" onclick="this.previousElementSibling.classList.toggle('open'); this.innerText = this.previousElementSibling.classList.contains('open') ? 'Read Less' : 'Read More';">Read More</div>
+    </div>
+
+    <div class="team-member">
+       <div style="position: relative;">
+  <img src="john.jpg" alt="John Paese">
+  <div class="hover-quote">The guy who’ll actually answer your emails.</div>
+</div>
+        <div class="name">John Paese</div>
+        <div class="role">Sales Manager</div>
+        <div class="email"><a href="mailto:john@lethal30imports.com">john@lethal30imports.com</a></div>
+        <div class="bio">
+            From high school hallways to shop floors, John and Thomas have been wrenching together since their teens. With over a decade of hands-on experience as an ASE-certified mechanic and years leading sales teams, John brings both brains and backbone to Lethal 30 Imports.
+
+He’s more than just the guy handing over keys. John handles sales, meets one-on-one with customers, and rides shotgun on curated import requests. Laid back but laser-focused, he's the type to crack a joke while spotting a paint flaw from 20 feet away.
+
+When he’s not deep in the JDM tuner scene, you’ll find him bashing RC cars, bingeing anime, or daydreaming about towing something ridiculous with an R34. Above all, he’s meticulous, honest, and all-in on the mission: bringing badass, legal imports to U.S. roads — one import at a time.
+        </div>
+        <div class="read-more" onclick="this.previousElementSibling.classList.toggle('open'); this.innerText = this.previousElementSibling.classList.contains('open') ? 'Read Less' : 'Read More';">Read More</div>
+    </div>
+
+</div>
+<p style="color: #aaa; max-width: 800px; margin: 50px auto 20px;">
+    At Lethal 30 Imports, we don’t just ship cars — we build trust. We’re veterans, gearheads, and family. Every import we source is hand-picked, and every customer becomes part of the team.
+</p>
+<a href="index.html" style="color:#00bfff; display:inline-block; margin: 40px 0;">&larr; Back to Home</a>
+
+    <!-- Footer Section -->
+<div style="background: #111; color: #aaa; padding: 30px 20px; margin-top: 50px; text-align: center;">
+    
+    <p style="margin: 8px 0;">Veteran Owned & Operated | Lethal 30 Imports</p>
+    <p style="margin: 8px 0;">© 2025 Lethal 30. All Rights Reserved.</p>
+    
+    <p style="margin: 15px 0;">
+        <a href="tel:+15555555555" style="color:#FF0000; text-decoration:none;">Call: (555) 555-5555</a> |
+        <a href="mailto:info@lethal30imports.com" style="color:#FF0000; text-decoration:none; margin-left: 5px;">Email Us</a>
+    </p>
+
+    <p style="margin: 15px 0;">
+        Follow us:
+        <a href="https://www.instagram.com" target="_blank" style="color:#FF0000; text-decoration:none; margin-left:5px;">Instagram</a>
+        <a href="https://www.facebook.com" target="_blank" style="color:#FF0000; text-decoration:none; margin-left:10px;">Facebook</a>
+    </p>
+
+    <img src="veteranbadge.png" alt="Veteran Owned" style="width: 70px; margin-top: 15px;">
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+[
+    {
+        "year": "2001",
+        "make": "Honda",
+        "model": "Acty",
+        "price": "8800",
+        "image": "acty.jpg"
+    },
+    {
+        "year": "1999",
+        "make": "Suzuki",
+        "model": "Carry",
+        "price": "9500",
+        "image": "carry.jpg"
+    },
+    {
+        "year": "2000",
+        "make": "Subaru",
+        "model": "Sambar",
+        "price": "10200",
+        "image": "sambar.jpg"
+    },
+    {
+        "year": "2002",
+        "make": "Daihatsu",
+        "model": "Hijet",
+        "price": "9900",
+        "image": "hijet.jpg"
+    },
+    {
+        "year": "2003",
+        "make": "Suzuki",
+        "model": "Every",
+        "price": "9200",
+        "image": "every.jpg"
+    },
+    {
+        "year": "2004",
+        "make": "Mitsubishi",
+        "model": "Minicab",
+        "price": "10000",
+        "image": "minicab.jpg"
+    }
+]
+
